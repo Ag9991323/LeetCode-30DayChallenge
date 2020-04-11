@@ -83,9 +83,9 @@ class LinkList{
         StringBuilder str = new StringBuilder();
         Nodes head1= l1.tail;
         while(head1!=null){
-           
             str.append(head1.data);
             head1=head1.prev;
+          
         }
         StringBuilder st = new StringBuilder();
         Nodes head2= l2.tail;
